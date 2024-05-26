@@ -87,4 +87,4 @@ Follow these steps to use the application:
 
 ## Video Walkthrough
 
-[Watch the video walkthrough](https://drive.google.com/file/d/1L2QLTEuVKj42jztnVs-ykBKUDbCNi1ju/view?usp=sharing) explaining the folder structure and project setup.
+[Watch the video walkthrough](https://drive.google.com/file/d/1L5A_DsX_uEgNaJ08FYK-bYUUITwQItq3/view?usp=sharing) explaining the folder structure and project setup.

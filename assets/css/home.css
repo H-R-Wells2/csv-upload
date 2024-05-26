@@ -1,0 +1,145 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: 'Franklin Gothic', sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  /* Centered text styles */
+  .center-text {
+    text-align: center;
+    margin-top: 80px;
+  }
+  
+  .center-text h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .center-text p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  /* Input container styles */
+  .input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    max-width: 600px;
+    height: 120px;
+    background-color: #fff;
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    margin-top: 30px;
+  }
+  
+  .upload-btn {
+    width: 120px;
+    height: 36px;
+    background-color: #4b88fd;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .upload-btn:hover {
+    background-color: #356ac3;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* List centered text styles */
+  .list-center-text {
+    background-color: #4b88fd;
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px 0;
+  }
+  
+  .list-center-text h2 {
+    font-size: 24px;
+    padding: 5px;
+  }
+  
+  .no-file {
+    font-size: 18px;
+    color: #4b88fd;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* File details table */
+  .file-details {
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  
+  /* View and delete links */
+  .view-link,
+  .delete-link {
+    text-decoration: none;
+    color: #4b88fd;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .view-link:hover,
+  .delete-link:hover {
+    background-color: #ccc;
+  }
+  
+  /* Additional styles */
+  @media (max-width: 768px) {
+    .input-container {
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .center-text h1 {
+      font-size: 28px;
+    }
+    .center-text p {
+      font-size: 16px;
+    }
+    .upload-btn {
+      width: 100px;
+      height: 32px;
+      font-size: 12px;
+    }
+  }
+  

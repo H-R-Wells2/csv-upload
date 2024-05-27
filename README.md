@@ -14,9 +14,9 @@ This project is a web application that allows users to upload CSV files, display
 
 ### Prerequisites
 
-- Node.js (version >= 12.x)
-- MongoDB
-  on
+- Node.js (v12.x or later)
+- MongoDB (running locally or on a cloud service)
+- NPM (v6.x or later)
 
 ## Setup Instructions
 
@@ -41,7 +41,7 @@ Follow these steps to set up the project on your local system:
    Create a `.env` file in the config directory and add the following:
 
    ```plaintext
-   PORT=8000
+   PORT=3000
    MONGODB_URI=mongodb://localhost:27017/csv-upload
    ```
 
@@ -53,7 +53,7 @@ Follow these steps to set up the project on your local system:
 
 5. **Access the application:**
 
-   Open your browser and go to `http://localhost:8000`.
+   Open your browser and go to `http://localhost:3000`.
 
 ## Usage
 
